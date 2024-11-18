@@ -26,8 +26,9 @@ body {
 
   p {
     margin: 0;
-    font-size: 14px;
   }
+
+
 
   section {
     max-width: 800px;
@@ -37,11 +38,20 @@ body {
   .title {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  hr + .title {
+    margin: 0px!important;
+  }
+
+  strong {
+    font-size: 18px;
   }
 
   .detail {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   footer {
